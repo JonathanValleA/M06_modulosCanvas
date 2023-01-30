@@ -5,7 +5,7 @@ export function draw(x, y, r, color, canvas) {
     ctx.arc(x, y, r, Math.PI, 0); // Creamos el arco con el posicion (x,y) el radio 
     ctx.stroke();
     ctx.strokeStyle = color; // Le pasamos los colores
-    ctx.lineWidth = 4; // Le decimos que tenga un grosor de 4
+    ctx.lineWidth = 5; // Le decimos que tenga un grosor de 4
 }
 
 // En este caso, creo otra funcion igual pero cambiando el .stroke() por .fill() para crearme el circulo entero
